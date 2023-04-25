@@ -15,4 +15,7 @@ export default defineNuxtConfig({
     typeCheck: true,
     strict: true,
   },
+  nitro: {
+    preset: "aws-lambda"
+  }
 });
