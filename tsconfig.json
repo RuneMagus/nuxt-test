@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "types": ["vitest/globals", "@testing-library/jest-dom"]
+  },
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "include": ["env.d.ts", "pages/**/*", "components/**/*.vue"],
+  "files": ["./test-setup.ts"]
+}

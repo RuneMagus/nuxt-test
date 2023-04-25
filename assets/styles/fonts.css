@@ -1,0 +1,75 @@
+/* WAGAMAMA fonts */
+/* --------------------- */
+
+/* wagamama-regular - latin */
+@font-face {
+  font-family: "Wagamama";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(""), url("../fonts/Wagamama/wagamamaRegular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/Wagamama/wagamamaRegular.woff") format("woff"),
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url("../fonts/Wagamama/wagamamaRegular.ttf") format("ttf"),
+    url("../fonts/Wagamama/wagamamaRegular.svg") format("svg"),
+    url("../fonts/Wagamama/wagamamaRegular.eot") format("eot");
+}
+
+/* wagamama-bold- latin */
+@font-face {
+  font-family: "Wagamama";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(""), url("../fonts/Wagamama/wagamamaBold.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/Wagamama/wagamamaBold.woff") format("woff"),
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url("../fonts/Wagamama/wagamamaBold.ttf") format("ttf"),
+    url("../fonts/Wagamama/wagamamaBold.svg") format("svg"),
+    url("../fonts/Wagamama/wagamamaBold.eot") format("eot");
+}
+
+/* HELVETICA fonts */
+/* --------------------- */
+
+/* helvetica-300 - latin */
+@font-face {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local(""),
+    url("../fonts/Helvetica/Helvetica-Light.woff2") format("woff2"),
+    url("../fonts/Helvetica/Helvetica-Light.woff") format("woff"),
+    url("../fonts/Helvetica/Helvetica-Light.ttf") format("ttf"),
+    url("../fonts/Helvetica/Helvetica-Light.svg") format("svg"),
+    url("../fonts/Helvetica/Helvetica-Light.eot") format("eot");
+}
+
+/* helvetica-regular - latin */
+@font-face {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(""), url("../fonts/Helvetica/Helvetica.woff2") format("woff2"),
+    url("../fonts/Helvetica/Helvetica.woff") format("woff"),
+    url("../fonts/Helvetica/Helvetica.ttf") format("ttf"),
+    url("../fonts/Helvetica/Helvetica.svg") format("svg"),
+    url("../fonts/Helvetica/Helvetica.eot") format("eot");
+}
+
+/* helvetica-700 - latin */
+@font-face {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(""), url("../fonts/Helvetica/Helvetica-Bold.woff2") format("woff2"),
+    url("../fonts/Helvetica/Helvetica-Bold.woff") format("woff"),
+    url("../fonts/Helvetica/Helvetica-Bold.ttf") format("ttf"),
+    url("../fonts/Helvetica/Helvetica-Bold.svg") format("svg"),
+    url("../fonts/Helvetica/Helvetica-Bold.eot") format("eot");
+}
